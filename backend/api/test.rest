@@ -1,0 +1,38 @@
+POST http://localhost:8000/api/transactions/
+Content-Type: application/json
+
+{
+    "text": "Salaire Mars",
+    "amount": -2000.00
+}
+
+###
+
+GET http://localhost:8000/api/transactions
+
+###
+
+DELETE http://localhost:8000/api/transactions/28094824-734d-468c-ac34-f91175296408/
+
+###
+
+PUT http://localhost:8000/api/transactions/e47d24e0-fa76-4315-96fd-6f89c3236377/
+Content-Type: application/json
+
+{
+    "text": "Salaire fcfkfkfzzz",
+    "amount": 10000.00
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+
+###
+
+PATCH  http://localhost:8000/api/transactions/6e835853-cbdb-4ee0-a246-d7bc6ec1519e/
+Content-Type: application/json
+
+{
+    "amount": 90000.00
+}
+
+
+
